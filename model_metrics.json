@@ -1,0 +1,21 @@
+{
+  "model": "InceptionV3",
+  "val_accuracy": 0.9907063245773315,
+  "val_loss": 0.02868066355586052,
+  "num_classes": 5,
+  "class_names": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy"
+  ],
+  "img_size": [
+    224,
+    224
+  ],
+  "epochs_fase1": 5,
+  "epochs_fase2": 5,
+  "fine_tune_at_layer": 249,
+  "total_params": 22336805
+}
